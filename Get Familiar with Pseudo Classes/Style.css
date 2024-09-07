@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial";
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+h1 {
+  color: orange;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+}
+a::after {
+  content: "✨";
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+ul li:hover {
+  color: rgb(67, 67, 164);
+}
+
+ul li::before {
+  content: "🪄";
+}
+
+ul li:nth-child(3) {
+  background-color: orange;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: orange;
+}
